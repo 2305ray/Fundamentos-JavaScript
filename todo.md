@@ -1,0 +1,7 @@
+-criar metas
+-listar metas
+    -metas realizadas
+    -metas abertas
+-marcar/descartar metas crealizadas
+-remover metas
+-sisetma de mensagens
