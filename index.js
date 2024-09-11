@@ -14,10 +14,15 @@ console.log(meta[1] + " " + meta[0])
 let metade = {
     value : 'ler um livro pro mês',
     checked : false,
-    isChecked: () => {}
+    log: (info) => {
+        console.log(info)
+    }
 }
 
 console.log(metade.value)
 
 //function // arrow function
 const criarMeta = () => {}
+
+//function sem arrow
+function  criarmeta () {}
