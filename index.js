@@ -1,28 +1,18 @@
-//hello world
-console.log("hello world!"); 
+function  start () {}
 
-//arrays
 
-let metas = [2 , 5]
-console.log(metas [1] +  metas[0])
-
-//ou
-let meta = ["mayk", "alo"]
-console.log(meta[1] + " " + meta[0])
-
-//objetos
-let metade = {
-    value : 'ler um livro pro mês',
-    checked : false,
-    log: (info) => {
-        console.log(info)
+    while(true) {
+        let opção = 1
+            switch (opção) {
+                case 'cadastrar':
+                    console.log ('vamos cadastrar')
+                    break
+                case 'listar':
+                    console.log("vamos listar")
+                    break
+                 case 'sair':
+                    return   
+            }
     }
-}
 
-console.log(metade.value)
-
-//function // arrow function
-const criarMeta = () => {}
-
-//function sem arrow
-function  criarmeta () {}
+start()
