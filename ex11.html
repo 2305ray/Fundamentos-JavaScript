@@ -6,6 +6,29 @@
     <title>País</title>
 </head>
 <body>
+    <p>País <input type="text" name="text" id="text">
+    <input type="button" value="verificar" onclick="verificar()">
+    </p>
+
+    <div id="res">
+    </div>
+
+    <script>
+        function verificar() {
+            var txt = document.querySelector('input#text').value // Obtem o valor do input
+            var res = document.getElementById('res') // Acessa o elemento onde vai mostrar o resultado
+
+            res.innerHTML = '';  // Limpa o conteúdo anterior
+            
+             // Verifica se o texto é "Brasil" (case insensitive)
+            if (txt.localeCompare('Brasil', undefined, {sensitivity:'accent'}) === 0) { //Compara a string digitada com "Brasil". O uso de localeCompare permite ignorar a diferença entre maiúsculas e minúsculas.
+                res.innerHTML += '<p>Você é brasileiro!</p>';
+            } else {
+                res.innerHTML += '<p>Você é estrangeiro!</p>';
+            }
+        
+        }
     
+    </script>
 </body>
 </html>
