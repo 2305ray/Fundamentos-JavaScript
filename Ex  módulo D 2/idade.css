@@ -1,5 +1,5 @@
 body{
-    background: #87CEFA;
+    background: #0dc5bc;
     font: normal 15pt arial;
 }
 
@@ -36,4 +36,20 @@ footer{
     text-align: center;
     font-style: italic;
 
+}
+
+#foto {
+    width: 200px;  /* Ajuste conforme necessário */
+    height: 200px;  
+    margin-top: 20px;  /* Adiciona espaço acima da imagem */
+    object-fit: cover;
+}
+
+#botao {
+    margin: 10px auto 10px;
+   
+}
+
+#res {
+    margin-top: 2px;
 }
