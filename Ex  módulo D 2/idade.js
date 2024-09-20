@@ -23,10 +23,10 @@ function verificar() {
             gênero = 'Homem';
             res.style.textAlign = 'center';
             res.innerHTML = `Detectamos um ${gênero} com ${Idade} anos`;
-            if (Idade > 1 && Idade <= 12) {
+            if (Idade > 0 && Idade <= 12) {
                 //Criança
                 img.setAttribute('src', 'criança-menino.jpg');
-            } else if (Idade < 21) {
+            } else if (Idade < 23) {
                 //Jovem
                 img.setAttribute('src','jovem-homem.jpg');
             } else if (Idade < 60) {
