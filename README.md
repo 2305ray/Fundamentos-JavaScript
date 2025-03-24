@@ -38,5 +38,5 @@ Para aproveitar ao máximo este repositório:
    ```bash
    git clone https://github.com/2305ray/Fundamentos-JavaScript.git
 
-   Pré-requisitos
+  
 2. Node.js instalado em sua máquina para executar os scripts JavaScript no ambiente de desenvolvimento.
